@@ -1,8 +1,9 @@
 require "spec_helper"
 
 def introduction(name)
+  puts  "Hi, my name is #{name}."
   end 
-    expect{introduction("Josh")}.to output("Hi, my name is Josh.\n").to_stdout
+    expect{introduction("Josh")}.to output("Hi, my name is Josh.\n").to_stdout, but output nothing
   end
 end
 
