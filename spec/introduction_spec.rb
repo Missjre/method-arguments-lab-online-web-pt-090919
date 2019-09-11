@@ -1,6 +1,6 @@
 require "spec_helper"
 
-def introduction
+def introduction(name)
   end 
     expect{introduction("Josh")}.to output("Hi, my name is Josh.\n").to_stdout
   end
